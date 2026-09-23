@@ -1,0 +1,7 @@
+# mararararai-mst.github.io のドメイン直下。ここが全プロジェクトページの検索可否を決める。
+# 方針: 検索に出すのは「小学校算数 アプリ系統表」だけ。ほかの教材はURLでは開けるが検索には出さない。
+User-agent: *
+Disallow: /
+Allow: /sansu-keito-tkk/
+
+Sitemap: https://mararararai-mst.github.io/sansu-keito-tkk/sitemap.xml
