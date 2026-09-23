@@ -1,11 +1,8 @@
 # mararararai-mst.github.io のドメイン直下。GitHub Pages の robots.txt はここに置いたものだけが読まれる。
-# 方針(2026-09-23): 教材は検索に出す。校内資料だけ出さない。
-# 理由: i-FILTER は未分類URLを遮断するため、検索に出ない＝フィルタ会社のDBに載らない＝生徒用PCで開けない。
-# Disallow を先に書くこと（順番で判定する解析器があるため、個別の Disallow → 最後に Allow: / の順）。
+# 方針: 検索に出すのは「小学校算数 アプリ系統表」だけ。ほかは URL で開けるが検索には出さない。
+# Allow を先に書くこと。順番で判定する解析器があるため、逆にすると全部除外になる。
 User-agent: *
-Disallow: /teachers-bible/
-Disallow: /rika-jugyo-kokai/
-Disallow: /matome-lesson-design/
-Allow: /
+Allow: /sansu-keito-tkk/
+Disallow: /
 
-Sitemap: https://mararararai-mst.github.io/sitemap.xml
+Sitemap: https://mararararai-mst.github.io/sansu-keito-tkk/sitemap.xml
